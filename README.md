@@ -1,3 +1,5 @@
+Note: This code works reliably on Python 3.11 and lower because some of the libraries used (especially TensorFlow, Keras, and their dependencies) do not yet have stable support for Python 3.12+. The issue is library compatibility, not a problem in the code itself.
+
 The system is divided into two main components:
 
 Prediction Engine (LZomato_updated.py): A Deep Learning model (LSTM) that fetches historical data and predicts the next 7 days of stock price "High" and "Low" values.
